@@ -6,9 +6,9 @@ This repository contains the slides for my CSCI 5828 presentation one
 which is due on 10/04/15.
 
 ####Table of Contents:
-1) Introduction to UML
+1) [Introduction to UML](https://github.com/trekbaum/present/blob/master/uml/slide1.md)
 
-2) Activity Diagram
+2) [Activity Diagram](https://github.com/trekbaum/present/blob/master/uml/slide2.md)
 
 3) Class Diagrams
 
