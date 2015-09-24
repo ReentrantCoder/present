@@ -1,7 +1,0 @@
-Do option 2 so that I have 3 presentations and the project
-
-Topics (in order to be presented):
-Design-Oriented UML Diagrams
-Structural Design Patterns (proposed)
-ORMS/Hibernate (proposed)
-Anti-patterns (proposed)
