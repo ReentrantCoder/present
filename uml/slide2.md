@@ -59,9 +59,9 @@ The two solid bars in diagram represent firstly a fork and then secondly a join.
 
 ![Fig3](https://github.com/trekbaum/present/blob/master/uml/resourses/fig3.png "Fork")
 
-Finally, the solid dot represents the end of our activity diagram. Because our code contains two return statements, there are two arrows pointing to the finish point of our diagram.
+Finally, the bull's eye represents the end of our activity diagram. Because our code contains two return statements, there are two arrows pointing to the finish point of our diagram.
 
-![Fig4](https://github.com/trekbaum/present/blob/master/uml/resourses/fig1.png "Finish Point")
+![Fig4](https://github.com/trekbaum/present/blob/master/uml/resourses/fig4.png "Finish Point")
 
 The next lower level diagrams are [class diagrams](https://github.com/trekbaum/present/blob/master/uml/slide2.md)
 
