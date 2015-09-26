@@ -14,8 +14,6 @@ which is due on 10/04/15.
 
 4) [Sequence Diagrams](https://github.com/trekbaum/present/blob/master/uml/slide4.md)
 
-5) Design-oriented Class Diagrams
+5) [Design Patterns in UML](https://github.com/trekbaum/present/blob/master/uml/slide5.md)
 
-6) Design-oriented Sequence Diagrams
-
-7) Conclusion and Citations
+5) [Conclusion and Citations](https://github.com/trekbaum/present/blob/master/uml/slide6.md)
