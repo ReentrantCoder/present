@@ -6,7 +6,7 @@ An activity diagram is dynamic because it shows the flow of logic and processes 
 
 ####Learning by Example
 
-Let's look at a basic non-sensical java program and its accociated activity diagram. We'll break it down piece-by-piece to learn what each piece of the diagram means.
+Let's look at a basic nonsensical java program and its accociated activity diagram. We'll break it down piece-by-piece to learn what each piece of the diagram means.
 
 ```
 public class slide2 {
@@ -63,5 +63,5 @@ Finally, the bull's eye represents the end of our activity diagram. Because our 
 
 ![Fig4](https://github.com/trekbaum/present/blob/master/uml/resourses/fig4.png "Finish Point")
 
-The next lower level diagrams are [class diagrams](https://github.com/trekbaum/present/blob/master/uml/slide2.md)
+The next lower level diagrams are [class diagrams](https://github.com/trekbaum/present/blob/master/uml/slide3.md)
 

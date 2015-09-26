@@ -10,9 +10,9 @@ which is due on 10/04/15.
 
 2) [Activity Diagram](https://github.com/trekbaum/present/blob/master/uml/slide2.md)
 
-3) Class Diagrams
+3) [Class Diagrams](https://github.com/trekbaum/present/blob/master/uml/slide3.md)
 
-4) Sequence Diagrams
+4) [Sequence Diagrams](https://github.com/trekbaum/present/blob/master/uml/slide4.md)
 
 5) Design-oriented Class Diagrams
 
