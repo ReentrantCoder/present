@@ -45,7 +45,7 @@ class Professor extends Person implements Teaches {
 }
 
 interface Teaches {
-   public boolean teach(Student student); 
+   public boolean teach(); 
 }
 ```
 
