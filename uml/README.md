@@ -16,4 +16,4 @@ which is due on 10/04/15.
 
 5) [Design Patterns in UML](https://github.com/trekbaum/present/blob/master/uml/slide5.md)
 
-5) [Conclusion and Citations](https://github.com/trekbaum/present/blob/master/uml/slide6.md)
+5) [Conclusion](https://github.com/trekbaum/present/blob/master/uml/slide6.md)
