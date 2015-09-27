@@ -30,10 +30,10 @@ class Book {
 }
 ```
 
-![Sequence](https://github.com/trekbaum/present/blob/master/uml/resourses/class.jpeg "Sequence Diagram")
+![Sequence](https://github.com/trekbaum/present/blob/master/uml/resourses/sequence.jpeg "Sequence Diagram")
 
 ![Fig8](https://github.com/trekbaum/present/blob/master/uml/resourses/fig8.png "Actor, Class, & Object")
 
 ![Fig9](https://github.com/trekbaum/present/blob/master/uml/resourses/fig9.png "Messages")
 
-![Fig10](https://github.com/trekbaum/present/blob/master/uml/resourses/fig5.png "Conditional")
+![Fig10](https://github.com/trekbaum/present/blob/master/uml/resourses/fig10.png "Conditional")
