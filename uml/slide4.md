@@ -68,5 +68,8 @@ will send a message back to set dracula's available attribute to false.
 
 ![Fig10](https://github.com/trekbaum/present/blob/master/uml/resourses/fig10.png "Conditional")
 
+####Next Steps
 Finally, let's put all we've learn together to see how diagrams can describe
 [design patterns.](https://github.com/trekbaum/present/blob/master/uml/slide5.md)
+
+Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/uml/README.md)

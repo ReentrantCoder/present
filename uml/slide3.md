@@ -67,4 +67,7 @@ The stereotypes abstract and interface are enclosed in brackets at the tope of P
 
 ![Fig7](https://github.com/trekbaum/present/blob/master/uml/resourses/fig7.png "Inheritance and Interface")
 
+####Next Steps
 Our final type of diagram to examine is [sequence diagrams](https://github.com/trekbaum/present/blob/master/uml/slide4.md)
+
+Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/uml/README.md)

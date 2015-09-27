@@ -17,3 +17,8 @@ I have taken examples from Source Making (https://sourcemaking.com/design_patter
 ####Command in UML
 
 ![Command](https://github.com/trekbaum/present/blob/master/uml/resourses/command.png "Command")
+
+####Next Steps
+Let's conclude by [reviewing what we've covered.](https://github.com/trekbaum/present/blob/master/uml/slide6.md)
+
+Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/uml/README.md)

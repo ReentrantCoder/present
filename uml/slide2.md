@@ -63,5 +63,8 @@ Finally, the bull's eye represents the end of our activity diagram. Because our 
 
 ![Fig4](https://github.com/trekbaum/present/blob/master/uml/resourses/fig4.png "Finish Point")
 
+####Next Steps
 The next lower level diagrams are [class diagrams](https://github.com/trekbaum/present/blob/master/uml/slide3.md)
+
+Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/uml/README.md)
 
