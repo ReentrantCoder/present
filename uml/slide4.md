@@ -16,7 +16,7 @@ class Student {
    boolean goodStanding;
    void wantBook(Book book, Library library) {
       if (this.goodStanding)
-         library.checkout(book) 
+         library.checkout(book);
    }
 }
 
