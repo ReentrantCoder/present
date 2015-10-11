@@ -1,7 +1,9 @@
 ##Adapter
 
 #### What is an Adapter?
-An adapter takes a class or object coded towards one interface and converts it for use against another interface. The adapter pattern performs the exact same functionality as a physical adapter. Consider how a VGA-to-HDMI adapter converts between the two different video inputs. It's like that.
+An adapter takes a class or object coded towards one interface and converts it for use against another interface. The adapter pattern performs the exact same functionality as a physical adapter. 
+
+Consider how a VGA-to-HDMI adapter converts between the two different video inputs. It's like that.
 
 ####In UML
 The figure below is the class diagram from an object adapter. We can see that the adapter implements the target interface. This allows the client to use the interface that to which it is accustomed. Also, the adapter delegates to the adaptee. This allows the adapter to convert requests that it receives into a request that can be accepted by the adaptee.
