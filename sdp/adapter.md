@@ -13,7 +13,7 @@ In our example below, we wish to adapt a turkey object into the duck interface. 
 
 Adapting can many different forms and is specific to the application. For example, a quack is simply a gobble that a duck makes. Thus to adapt, we delegate a quack request to a gobble request. But even though flying has the same request name between a duck and a turkey, the implementation is totally different. Ducks can fly far, but turkeys can only fly short distances. In this case, we need to rework the implementation to adapt properly. In this example, a duck fly request is adapt into 5 turkey fly requests to compensate for the distance.
 
-Because we have successfully implemented the turkey adapter, a client can instantiate a new duck object that is just an adapted turkey. The client can make quack and fly requests to the new duck object and the turkey adapter will convert them into requests that are handled by the turkey adaptee.
+Because we have successfully implemented the turkey adapter, a client can instantiate a new duck object that is just an adapted turkey. The client can make quack and fly requests to the new duck object and the turkey adapter will convert them into requests that are handled by the turkey adaptee. The client can interact with the turkey adapter in the exact same way the client would interact with a mallard duck object.
 
 ```
 public interface Duck {
