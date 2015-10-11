@@ -4,11 +4,13 @@
 
 In the presentation, we covered structural design patterns.
 
-Thank you for reading. I hope this presentation taught or refreshed your UML basics.
+Thank you for reading. I hope this presentation taught or refreshed your structural design patterns.
 
 ####Code and Figures
 
 I got all of the UML diagrams from Liz Boese's CSCI 5828 lecture slides.
+
+I got the code for adapter from Head First Design Patterns.
 
 ####References
 Liz Boese's CSCI 5828 Lecture Slides

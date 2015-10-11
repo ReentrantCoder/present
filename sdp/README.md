@@ -2,7 +2,7 @@
 ##Student: Tyler Behm
 ##Presentation 2
 
-This repository contains the slides for my CSCI 5828 presentation one 
+This repository contains the slides for my CSCI 5828 presentation two 
 which is due on 10/25/15.
 
 ####Table of Contents:
