@@ -12,12 +12,12 @@ which is due on 10/25/15.
 
 3) [Facade](https://github.com/trekbaum/present/blob/master/sdp/facade.md)
 
-4) [Decorator](https://github.com/trekbaum/present/blob/master/sdp/decorator.md)
+4) [Composite](https://github.com/trekbaum/present/blob/master/sdp/composite.md)
 
-5) [Flyweight](https://github.com/trekbaum/present/blob/master/sdp/flyweight.md)
+5) [Decorator](https://github.com/trekbaum/present/blob/master/sdp/decorator.md)
 
-6) [Proxy](https://github.com/trekbaum/present/blob/master/sdp/proxy.md)
+6) [Flyweight](https://github.com/trekbaum/present/blob/master/sdp/flyweight.md)
 
-7) [Bridge](https://github.com/trekbaum/present/blob/master/sdp/bridge.md)
+7) [Proxy](https://github.com/trekbaum/present/blob/master/sdp/proxy.md)
 
 8) [Conclusion](https://github.com/trekbaum/present/blob/master/sdp/conclusion.md)

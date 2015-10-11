@@ -9,6 +9,6 @@ An adapter takes a class or object coded towards one interface and converts it f
 ####Code Example
 
 ####Next Steps
-The facade pattern is similar to adapter so [let's continue with the adapter pattern](https://github.com/trekbaum/present/blob/master/sdp/facade.md)
+The facade pattern is similar to adapter so [let's continue with the facade pattern](https://github.com/trekbaum/present/blob/master/sdp/facade.md)
 
 Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/sdp/README.md)
