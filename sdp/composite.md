@@ -1,9 +1,14 @@
 ##Composite
 
 ####What is a Composite?
+The composite pattern is used to manage collections of objects composed of identical components. This allows use to organize similar attributes and methods among the component and composite. 
+
+If a bee is a bee object and swarm of bees is a collection of bee objects, then we say that the swarm composite is also a bee object. Because a bee can buzz, so too can a swarm of bees.
 
 
 ####In UML
+The figure below shows the quintessential composite design. The client only needs to know how to interact with the component abstract class. But this allows it to interact just as well with the leaf and composite classes because they inherit from the component class. Notice empty diamond from composite to component. This represents their one to many composition relationship.
+
 ![Composite!](https://github.com/trekbaum/present/blob/master/sdp/resourses/composite.png "Composite UML")
 
 ####Code Example

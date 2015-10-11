@@ -8,6 +8,7 @@ The seminal work for all design patterns is _Design Patterns: Elements of Reusab
 ####Scope of this Presentation
 To properly define the scope of this presentation, I will be restricting my
 discussion to structural design patterns described by the Gang of Four. I will cover them all except for bridge.
+I won't cover bridge because it is the most complex and because there is much more than 45 minutes worth of content between the six remaining patterns. 
 
 #### What is a Structural Design Pattern
 Structural design patterns use inheritance to compose interfaces and define ways 
