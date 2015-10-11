@@ -10,7 +10,8 @@ Thank you for reading. I hope this presentation taught or refreshed your structu
 
 I got all of the UML diagrams from Liz Boese's CSCI 5828 lecture slides.
 
-I got the code for adapter from Head First Design Patterns.
+I got the code for adapter from Head First Design Patterns, the code for composite
+from wikipedia, 
 
 ####References
 Liz Boese's CSCI 5828 Lecture Slides
