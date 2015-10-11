@@ -8,7 +8,8 @@ An adapter takes a class or object coded towards one interface and converts it f
 
 ####Code Example
 
-```public interface Duck {
+```
+public interface Duck {
    public void quack();
    public void fly();
 }
