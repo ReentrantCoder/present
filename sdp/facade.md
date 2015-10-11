@@ -7,6 +7,8 @@ Similar to an adapter, a facade focuses on modifying the interface. But unlike a
 ![Facade!](https://github.com/trekbaum/present/blob/master/sdp/resourses/facade.png "Facade UML")
 
 ####Code Example
+For our facade code example, we will use the code snippet featured in the illustration
+given above.
 
 ####Next Steps
 [Let's continue with the composite pattern](https://github.com/trekbaum/present/blob/master/sdp/composite.md)
