@@ -4,6 +4,8 @@
 !Assets/**
 !ProjectSettings/
 !ProjectSettings/**
+!resourses/
+!resourses/**
 !*.md
 !*.txt
 *.log
