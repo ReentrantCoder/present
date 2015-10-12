@@ -4,6 +4,9 @@
 
 
 ####In UML
+
+Notice that the component, concrete component, and decorator classes form a composite design pattern within the decorator pattern.
+
 ![Decorator!](https://github.com/trekbaum/present/blob/master/sdp/resourses/decorator.png "Decorator UML")
 
 ####Code Example
