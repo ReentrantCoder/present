@@ -11,7 +11,7 @@ The figure below is the class diagram from an object adapter. We can see that th
 ![Adapter!](https://github.com/trekbaum/present/blob/master/sdp/resourses/adapter.png "Object Adapter UML")
 
 ####Code Example
-In our example below, we wish to adapt a turkey object into the duck interface. Let's compare this with UML diagram above. The Turkey class is our adaptee. The TurkeyAdapter class is our adapter. The Duck interface is our target. The DuckTestDrive is our cleint.
+In our example below, we wish to adapt a turkey object into the duck interface. Let's compare this code to the UML diagram above. The Turkey class is our adaptee. The TurkeyAdapter class is our adapter. The Duck interface is our target. The DuckTestDrive is our cleint.
 
 Adapting can many different forms and is specific to the application. For example, a quack is simply a gobble that a duck makes. Thus to adapt, we delegate a quack request to a gobble request. But even though flying has the same request name between a duck and a turkey, the implementation is totally different. Ducks can fly far, but turkeys can only fly short distances. In this case, we need to rework the implementation to adapt properly. In this example, a duck fly request is adapt into 5 turkey fly requests to compensate for the distance.
 
