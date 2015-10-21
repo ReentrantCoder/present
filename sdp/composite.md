@@ -1,7 +1,7 @@
 ##Composite
 
 ####What is a Composite?
-The composite pattern is used to manage collections of objects composed of identical components. This allows us to organize similar attributes and methods among the component and composite. 
+The composite pattern is used to manage collections of objects composed of identical components. This allows us to organize similar attributes and methods among the components and composites. 
 
 If a bee is a bee object and swarm of bees is a collection of bee objects, then we say that the swarm composite is also a bee object. Because a bee can buzz, so too can a swarm of bees.
 
@@ -15,7 +15,7 @@ The figure below shows the quintessential composite design. The client only need
 
 In our code example below, we wish to combine four ellipse objects together to make a composite graphic. Let's compare this code to the UML diagram above. The Graphic interface is the component. The CompositeGraphic class is the composite. The Ellipse class is the leaf. The Program class is the client.
 
-Because graphic, graphic1, and graphic2 are all CompositeGraphic objects, they all have the add() which allows us to add component objects to them. First, we add ellipse objects 1, 2, and 4 to graphic1. Second, we add ellipse object 3 to graphic2. Then because composite objects are also component objects, we can add graphic1 and graphic2 to graphic to get our final composite. The graphic object has the print() command of its components. So when we call print() on the final graphic object it then calls print() on all its leaf objects.
+Because graphic, graphic1, and graphic2 are all CompositeGraphic objects, they all have the add() which allows us to add component objects to them. First, we add ellipse objects 1, 2, and 4 to graphic1. Second, we add ellipse object 3 to graphic2. Then because composite objects are also component objects, we can add graphic1 and graphic2 to graphic to get our final composite. The graphic object has the print() command of its components. So when we call print() on the final graphic object, it then calls print() on all its leaf objects.
 
 ```
 /** "Component" */

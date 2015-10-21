@@ -1,12 +1,12 @@
 ##Facade
 
 ####What is a Facade?
-Similar to an adapter, a facade focuses on modifying the interface. But unlike an adapter which focuses on converting between existing interfaces, a facade focuses on simplifying an existing interface to a new interface. Like its name suggest, a facade gives a system a fake face for which a client can submit requests. 
+Similar to an adapter, a facade focuses on modifying the interface. But unlike an adapter which focuses on converting between existing interfaces, a facade focuses on simplifying an existing interface to a new interface. Like its name suggests, a facade gives a system a fake face to which a client can submit requests. 
 
 Consider how your home media entertainment system turns on your TV, DVD player, and stereo system all at the same time when you press the "ON" button your remote control. In this case, the remote control is acting as your facade.
 
 ####In UML
-The figure below shows an example of a facade. The dotted arrows indicate a dependancy. The actual system in this diagram is the collection of classes 1, 2, and 3. The clients depend on the facade to interact with the system. The facade depends on the system to fulfill its requests from the client.
+The figure below shows an example of a facade. The dotted arrows indicate a dependency. The actual system in this diagram is the collection of classes 1, 2, and 3. The clients depend on the facade to interact with the system. The facade depends on the system to fulfill its requests from the client.
 
 ![Facade!](https://github.com/trekbaum/present/blob/master/sdp/resourses/facade.png "Facade UML")
 
