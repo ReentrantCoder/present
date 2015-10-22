@@ -5,15 +5,24 @@ The flyweight design is a way of saving memory in a system by sharing as much da
 This might sound similar to singleton to you. But this goes slightly beyond singleton by allowing minor modifications of the
 state between repetitions. Because the flyweight object is shared amongst uses, it must be immutable.
 
-In order to encapsulate what changes, we divide the flyweight object into two parts. The state-independent part is stored in the flyweight. This is immutable. The state-dependent part is handled by the client and must be passed to the flyweight. This changes.
+In order to encapsulate what changes, we divide the flyweight object into two parts. The state-independent part is stored in the flyweight. This is intrinsic and immutable. The state-dependent part is handled by the client and must be passed to the flyweight. This is extrinsic and changes.
 
-When you use a glyph object in a word processor, you are using flyweight. The glyphes that you see is only actually a reference
+When you use a glyph object in a word processor, you are using flyweight. The glyph that you see is only actually a reference
 to the glyph object in memory. Thus only its position needs to be stored and not the actual glyph object. In this example, the glyph is the state-independent part, and the position is the state-dependent part.
 
 ####In UML
+
+Below is a UML diagram for flyweight. The client needs to know how to call the concrete flyweight's method so that the client can pass the extrinsic state. The factory contains precautions to ensure that no redundant intrisic states are made and to control the production of the flyweights. A factory method is a creational design pattern.
+
 ![Flyweight!](https://github.com/trekbaum/present/blob/master/sdp/resourses/flyweight.png "Flyweight UML")
 
 ####Code Example
+
+This code is difficult to map to the UML diagram for flyweight, but it is definitely
+using flyweight. The Order class is the concrete flyweight. Its state-independent part
+is the Coffeeflavor class. We can see that the Menu class acts as a factory to
+ensure that only one of each Coffeeflavor is created. Order's state-dependent part
+is the table number.
 
 ```
 import java.util.List;
