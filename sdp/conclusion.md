@@ -2,7 +2,9 @@
 
 ####Wrapping Up
 
-In the presentation, we covered structural design patterns.
+In the presentation, we covered structural design patterns. We've seen that both the adapter and facade
+patterns modify the clients interface. We've examined the similarities between the compositie,
+decorator, and proxy patterns. And we've learned how the flyweight pattern helps save memory.
 
 Thank you for reading. I hope this presentation taught or refreshed your structural design patterns.
 
@@ -10,16 +12,13 @@ Thank you for reading. I hope this presentation taught or refreshed your structu
 
 I got the facade UML diagram from wikipedia and all of other the UML diagrams from Liz Boese's CSCI 5828 lecture slides.
 
-I got the code for adapter and decorator from Head First Design Patterns, the code for composite
-and flyweight from Wikipedia, and the code for proxy from Sourcemaking.
+I got the code for adapter and decorator from Head First Design Patterns and the code for composite, proxy and flyweight from Wikipedia.
 
 ####References
 Liz Boese's CSCI 5828 Lecture Slides
 
 Head First Design Patterns
 Eric Freeman and Elisabeth Freeman with Kathy Sierra and Bert Bates
-
-Sourcemaking (sourcemaking.com)
 
 Object-Oriented Software Engineering: Using UML, Patterns, and Java,
 Third Edition,

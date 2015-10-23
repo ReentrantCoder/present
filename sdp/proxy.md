@@ -1,7 +1,16 @@
 ##Proxy
 
 ####What is a Proxy?
+Proxies act as a stand-in for the real thing. The proxy design pattern has a 
+variety of advantageous applications. A remote proxy can create a local copy
+of a subject so that your system can more easily interact with a remote subject.
+A virtual copy can use lazy implementation to delay loading of expensive subjects.
+A protection proxy can ensure safety and control when accessing the subject.
+A smart proxy like a logger can provide additional features when accessing a subject.
 
+There are many real world analogies to the proxy pattern. An assitant would proxy
+for a CEO because the CEO's time is more valuable. A bodyguard might act as a proxy
+by controlling access to a VIP.
 
 ####In UML
 
@@ -12,91 +21,85 @@ commands to the RealSubject. Proxy's Subject, Proxy, and RealSubject classes are
 to composite's Component, Composite, and Leaf classes, respectively. The only thing that
 is missing in the proxy pattern that is in composite pattern is the one to many composition relationship.
 
-
 ![Proxy!](https://github.com/trekbaum/present/blob/master/sdp/resourses/proxy.png "Proxy UML")
 
 ####Code Example
 
 ```
-import java.io.*;  import java.net.*;
-
-// 5. To support plug-compatibility between
-// the wrapper and the target, create an interface
-interface SocketInterface {
-  String readLine();
-  void  writeLine( String str );
-  void  dispose();
+interface Image {
+    public void displayImage();
 }
 
-public class ProxyDemo {
-  public static void main( String[] args ) {
+//on System A 
+class RealImage implements Image {
 
-    // 3. The client deals with the wrapper
-    SocketInterface socket = new SocketProxy( "127.0.0.1", 8189,
-      args[0].equals("first") ? true : false );
+    private String filename = null;
+    /**
+     * Constructor
+     * @param filename
+     */
+    public RealImage(final String filename) { 
+        this.filename = filename;
+        loadImageFromDisk();
+    }
 
-    String  str = null;
-    boolean skip = true;
-    while (true) {
-      if (args[0].equals("second")  &&  skip) {
-        skip = ! skip;
-      }
-      else {
-        str = socket.readLine();
-        System.out.println( "Receive - " + str );  // java ProxyDemo first
-        if (str.equals("quit")) break;             // Receive - 123 456
-      }                                            // Send ---- 234 567
-      System.out.print( "Send ---- " );            // Receive - 345 678
-      str = Read.aString();                        //
-      socket.writeLine( str );                     // java ProxyDemo second
-      if (str.equals("quit")) break;               // Send ---- 123 456
-    }                                              // Receive - 234 567
-    socket.dispose();                              // Send ---- 345 678
-  }
+    /**
+     * Loads the image from the disk
+     */
+    private void loadImageFromDisk() {
+        System.out.println("Loading   " + filename);
+    }
+
+    /**
+     * Displays the image
+     */
+    public void displayImage() { 
+        System.out.println("Displaying " + filename); 
+    }
+
 }
 
-class SocketProxy implements SocketInterface {
-  // 1. Create a "wrapper" for a remote,
-  // or expensive, or sensitive target
-  private Socket      socket;
-  private BufferedReader in;
-  private PrintWriter   out;
+//on System B 
+class ProxyImage implements Image {
 
-  public SocketProxy( String host, int port, boolean wait ) {
-    try {
-      if (wait) {
-        // 2. Encapsulate the complexity/overhead of the target in the wrapper
-        ServerSocket server = new ServerSocket( port );
-        socket = server.accept();
-      } else
-        socket = new Socket( host, port );
-        in  = new BufferedReader( new InputStreamReader(
-                                        socket.getInputStream()));
-        out = new PrintWriter( socket.getOutputStream(), true );
-      } catch( IOException e ) {
-        e.printStackTrace();
-      }
-  }
-  public String readLine() {
-    String str = null;
-    try {
-      str = in.readLine();
-    } catch( IOException e ) {
-      e.printStackTrace();
+    private RealImage image = null;
+    private String filename = null;
+    /**
+     * Constructor
+     * @param filename 
+     */
+    public ProxyImage(final String filename) { 
+        this.filename = filename; 
     }
-    return str;
-  }
-  public void writeLine( String str ) {
-    // 4. The wrapper delegates to the target
-    out.println( str );
-  }
-  public void dispose() {
-    try {
-      socket.close();
-    } catch( IOException e ) {
-      e.printStackTrace();
+
+    /**
+     * Displays the image
+     */
+    public void displayImage() {
+        if (image == null) {
+           image = new RealImage(filename);
+        } 
+        image.displayImage();
     }
-  }
+
+}
+
+class ProxyExample {
+
+   /**
+    * Test method
+    */
+   public static void main(String[] args) {
+        final Image IMAGE1 = new ProxyImage("HiRes_10MB_Photo1");
+        final Image IMAGE2 = new ProxyImage("HiRes_10MB_Photo2");
+        
+        IMAGE1.displayImage(); // loading necessary
+        IMAGE1.displayImage(); // loading unnecessary
+        IMAGE2.displayImage(); // loading necessary
+        IMAGE2.displayImage(); // loading unnecessary
+        IMAGE1.displayImage(); // loading unnecessary
+    }
+
 }
 ```
 
