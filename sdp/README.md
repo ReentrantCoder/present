@@ -16,8 +16,8 @@ which is due on 10/25/15.
 
 5) [Decorator](https://github.com/trekbaum/present/blob/master/sdp/decorator.md)
 
-6) [Flyweight](https://github.com/trekbaum/present/blob/master/sdp/flyweight.md)
+6) [Proxy](https://github.com/trekbaum/present/blob/master/sdp/proxy.md)
 
-7) [Proxy](https://github.com/trekbaum/present/blob/master/sdp/proxy.md)
+7) [Flyweight](https://github.com/trekbaum/present/blob/master/sdp/flyweight.md)
 
 8) [Conclusion](https://github.com/trekbaum/present/blob/master/sdp/conclusion.md)

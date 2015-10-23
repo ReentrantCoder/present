@@ -74,6 +74,7 @@ public class StarbuzzCoffee {
 
 
 ####Next Steps
-[Let's continue with the flyweight pattern](https://github.com/trekbaum/present/blob/master/sdp/flyweight.md)
+Let's explore one more pattern that shares similarities with the composite pattern.
+[It's the proxy pattern](https://github.com/trekbaum/present/blob/master/sdp/proxy.md)
 
 Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/sdp/README.md)

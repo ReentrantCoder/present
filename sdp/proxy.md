@@ -4,6 +4,15 @@
 
 
 ####In UML
+
+Below is the UML diagram for proxy. Notice how it bears a striking resemblance to the
+UML diagram for composite? The client only needs to know how to interact with the abstract Subject class.
+The Proxy and RealSubject class both inherit from the Subject class. Proxy delegates 
+commands to the RealSubject. Proxy's Subject, Proxy, and RealSubject classes are analogous
+to composite's Component, Composite, and Leaf classes, respectively. The only thing that
+is missing in the proxy pattern that is in composite pattern is the one to many composition relationship.
+
+
 ![Proxy!](https://github.com/trekbaum/present/blob/master/sdp/resourses/proxy.png "Proxy UML")
 
 ####Code Example
@@ -93,6 +102,7 @@ class SocketProxy implements SocketInterface {
 
 
 ####Next Steps
-Let's conclude by [reviewing what we've covered.](https://github.com/trekbaum/present/blob/master/sdp/conclusion.md)
+Let's explore our last remaining pattern for this presentation.
+[It's the flyweight pattern](https://github.com/trekbaum/present/blob/master/sdp/flyweight.md)
 
 Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/sdp/README.md)

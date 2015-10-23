@@ -118,6 +118,6 @@ public class CoffeeShop {
 ```
 
 ####Next Steps
-[Let's continue with the proxy pattern](https://github.com/trekbaum/present/blob/master/sdp/proxy.md)
+Let's conclude by [reviewing what we've covered.](https://github.com/trekbaum/present/blob/master/sdp/conclusion.md)
 
 Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/sdp/README.md)
