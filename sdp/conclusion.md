@@ -11,13 +11,15 @@ Thank you for reading. I hope this presentation taught or refreshed your structu
 I got the facade UML diagram from wikipedia and all of other the UML diagrams from Liz Boese's CSCI 5828 lecture slides.
 
 I got the code for adapter and decorator from Head First Design Patterns, the code for composite
-from wikipedia, 
+and flyweight from Wikipedia, and the code for proxy from Sourcemaking.
 
 ####References
 Liz Boese's CSCI 5828 Lecture Slides
 
 Head First Design Patterns
 Eric Freeman and Elisabeth Freeman with Kathy Sierra and Bert Bates
+
+Sourcemaking (sourcemaking.com)
 
 Object-Oriented Software Engineering: Using UML, Patterns, and Java,
 Third Edition,
