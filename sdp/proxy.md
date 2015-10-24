@@ -1,10 +1,10 @@
 ##Proxy
 
 ####What is a Proxy?
-Proxies act as stand-ins for the real things. The proxy design pattern has a 
+A proxy acts as stand-in for the real thing. The proxy design pattern has a 
 variety of advantageous applications. A remote proxy can create a local copy
 of a remote subject so that your system can more easily interact with it.
-A virtual copy can use lazy implementation to delay loading of expensive subjects.
+A virtual copy can use a skeleton representation or lazy initialization to delay loading of expensive subjects.
 A protection proxy can ensure safety and control when accessing the subject.
 A smart proxy, like a logger, can provide additional features when accessing a subject.
 
@@ -21,27 +21,27 @@ commands to the RealSubject. Proxy's Subject, Proxy, and RealSubject classes are
 to composite's Component, Composite, and Leaf classes, respectively. The only thing that
 is missing in the proxy pattern that is in composite pattern is the one-to-many composition relationship.
 
-This diagram shows us that the client nows how to interface with both the proxy and the real subject.
-But in actuality, the client will only sends commands to proxy. Then the proxy will relay those
+This diagram shows us that the client knows how to interface with both the proxy and the real subject.
+But in actuality, the client will only send commands to the proxy. Then the proxy will relay those
 commands to the real subject if necessary.
 
 ![Proxy!](https://github.com/trekbaum/present/blob/master/sdp/resourses/proxy.png "Proxy UML")
 
 ####Code Example
 
-Below is a code example for virtual proxy. Let's compare it to the UML diagram above.
+Below is a code example for a virtual proxy. Let's compare it to the UML diagram above.
 The Image interface is the Subject. The RealImage class is the RealSubject.
 The ProxyImage class is the Proxy. And ProxyExample is the Client.
 
-We can see that the ProxyImage class supports lazy implementation by initializing
+We can see that the ProxyImage class supports lazy initialization by initializing
 its image attribute to null. But once the client asks the proxy for the image, the
 proxy checks to see if the image is there. If the image is there, the proxy returns it.
 If not, the proxy will then finally initialize the image. 
 
 In this example, the proxy pattern will help save memory by preventing unneccessary
 loading of the images. Look at the order in which the client calls the displayImage
-method. The client ask for IMAGE1 first. Because this has not been initialized yet,
-the proxy will load it. Then the client ask for IMAGE1 again. But because this has
+method. The client asks for IMAGE1 first. Because this has not been initialized yet,
+the proxy will load it. Then the client asks for IMAGE1 again. But because this has
 already been initialized, the proxy does not need to load it again. This saves
 unnecessary use of memory.
 
