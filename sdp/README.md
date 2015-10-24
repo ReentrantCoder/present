@@ -1,4 +1,4 @@
-## Structural Design Patters
+## Structural Design Patterns
 ##Student: Tyler Behm
 ##Presentation 2
 
