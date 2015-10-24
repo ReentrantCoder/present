@@ -25,6 +25,22 @@ is missing in the proxy pattern that is in composite pattern is the one to many 
 
 ####Code Example
 
+Below is a code example for virtual proxy. Let's compare it to the UML diagram above.
+The Image interface is the Subject. The RealImage class is the RealSubject.
+The ProxyImage class is the Proxy. And ProxyExample is the client.
+
+We can see that the ProxyImage class supports lazy implementation by initializing
+its image attribute to null. But once the client asks the proxy for the image the
+proxy checks to see if the image is there. If the image is there, the proxy returns it.
+If not, the proxy will then finally initialize the image. 
+
+In this example, the proxy pattern will help save memory by preventing unneccessary
+loading of the images. Look at the order in which the client calls the displayImage
+method. The client ask for IMAGE1 first. Because this has not been initialized yet,
+the proxy will load it. Then the client ask for IMAGE1 again. But because this has
+already been initialied, the proxy does not need to load it again. This saves
+unnecessary use of memory.
+
 ```
 interface Image {
     public void displayImage();
