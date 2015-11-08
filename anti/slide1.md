@@ -17,7 +17,7 @@ the same each month, we could just use their constants in the code to save a cou
 of lines of code. But this is a terrible idea. I could never convince my roommate
 that the calculation was fair. He wouldn't know where I got the numbers from!
 
-'''
+```
 import sys
 
 if len(sys.argv) > 2:
@@ -36,14 +36,14 @@ print "Roommie's share is $" + str(calc_roommie(elec))
 print "Tyler's   share is $" + str(calc_tyler(elec))
 print "Total paid for rent is $" + str(calc_roommie(elec) + calc_tyler(elec))
 print ""
-'''
+```
 
 Here is the fixed code where I have replaced the magic numbers with symbolic constants.
 Now my roommate can clearly see that the calculation equation is fair. Furthermore,
 if our lease or interent cost were to ever change, it would be fair easier for me
 to correct it.
 
-'''
+```
 import sys
 
 if len(sys.argv) > 2:
@@ -64,7 +64,7 @@ print "Roommie's share is $" + str(calc_roommie(elec))
 print "Tyler's   share is $" + str(calc_tyler(elec))
 print "Total paid for rent is $" + str(calc_roommie(elec) + calc_tyler(elec))
 print ""
-'''
+```
 
 ####Next Steps
 [Let's continue with the magic number antipattern](https://github.com/trekbaum/present/blob/master/anti/slide2.md)
