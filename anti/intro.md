@@ -23,12 +23,22 @@ Antipatterns have many different varieties. Different sources categorizes them
 differently. Sourcemaking groups them as follows:
 
 ######Software development antipatterns
+These problems are what match closest to code smell. They are harmful manifestations
+in the code itself. Spaghetti code is a classic example. We'll focus mostly on antipatterns
+of this kind in our presentation because they are most easily represented with code.
 
 ######Software architecture antipatterns
+These problems focus on the system-level and enterprise-level structure of applications and components.
+Reinventing the wheel is a well known idiom that is also an architectural antipattern. But because of the
+inefficient technology transfer between and even within companies, reinventing the wheel does happen. 
 
 ######Management antipatterns
+These problems are far more human-centric in nature. They deal with aspects of
+psychology and emotions. For example, analysis paralysis is when designers seek
+to achieve perfection in the planning stage to the extent that they never actually
+begin any actions.
 
 ####Next Steps
-One of the easiest antipatterns is magic number so [let's begin with the adapter pattern](https://github.com/trekbaum/present/blob/master/anti/slide1.md)
+One of the easiest antipatterns is magic number so [let's begin with the magic number antipattern](https://github.com/trekbaum/present/blob/master/anti/slide1.md)
 
 Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/anti/README.md)
