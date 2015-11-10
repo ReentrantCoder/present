@@ -1,4 +1,6 @@
 ##Spaghetti Code
+
+####What is spaghetti code?
 The spaghetti code antipattern consist of tangled control structure or unstructured
 branching constructs. The most notorious example of this is the GOTO statement.
 
@@ -23,7 +25,7 @@ The control has become tangled.
 70 END
 ```
 
-In the fixed example, proper structured programming resolves the issue while a for loop.
+In the fixed example, proper structured programming resolves the issue with a for loop.
 ```
 10 FOR i = 1 TO 10
 20     PRINT i; " squared = "; i * i

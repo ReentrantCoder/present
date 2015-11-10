@@ -1,11 +1,13 @@
 ##Magic Numbers
+
+####What are magic numbers?
 The magic numbers antipattern is when a developer includes unexplained numerical constants
 in algorithms. This leads to confusion on the origin of the numbers for others
 and possibly to the original developer should she try to modify her code at a
 later time.
 
 ####Code Example
-Here is a bit of code that I actually use in my everyday life. I made this code
+Here is a bit of code that I actually use in my everyday life. I made this Python code
 to calculate what share of the rent my roommate (Roommie) and I should pay. In addition to 
 the rent, he pays electricity, and I pay the internet. If the internet and electricity
 cost the same for that month, it would be fair if we split the rent 50/50. But if he 
@@ -67,6 +69,6 @@ print ""
 ```
 
 ####Next Steps
-[Let's continue with the magic number antipattern](https://github.com/trekbaum/present/blob/master/anti/slide2.md)
+[Let's continue with the spaghetti antipattern](https://github.com/trekbaum/present/blob/master/anti/slide2.md)
 
 Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/anti/README.md)
