@@ -18,4 +18,8 @@ which is due on 11/15/15.
 
 6) [Functional Fixation](https://github.com/trekbaum/present/blob/master/anti/slide5.md)
 
-7) [Conclusion](https://github.com/trekbaum/present/blob/master/sdp/conclusion.md)
+7) [Clipboard Coding](https://github.com/trekbaum/present/blob/master/anti/slide6.md)
+
+8) [Arrowhead](https://github.com/trekbaum/present/blob/master/anti/slide7.md)
+
+9) [Conclusion](https://github.com/trekbaum/present/blob/master/sdp/conclusion.md)
