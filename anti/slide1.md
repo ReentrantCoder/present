@@ -42,7 +42,7 @@ print ""
 
 Here is the fixed code where I have replaced the magic numbers with symbolic constants.
 Now my roommate can clearly see that the calculation equation is fair. Furthermore,
-if our lease or interent cost were to ever change, it would be fair easier for me
+if our lease or internet cost were to ever change, it would be fair easier for me
 to correct it.
 
 ```
@@ -56,10 +56,10 @@ lease = 1205.0
 internet = 66.95
 
 def calc_roommie(elec):
-   return lease/2 + (internet - elec)/2 
+   return (lease + internet - elec)/2 
    
 def calc_tyler(elec):
-   return lease/2 - (internet - elec)/2
+   return (lease - internet + elec)/2
    
 print ""
 print "Roommie's share is $" + str(calc_roommie(elec))

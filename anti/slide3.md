@@ -16,7 +16,7 @@ all the library and item code as well. This makes maintenance unnecessary diffic
 The refactor in this situation is to identify the catalog and item code and move
 them out into their own respective classes.
 
-![Blob!](https://github.com/trekbaum/present/blob/master/anti/resourses/blob.png "Blob UML")
+![Blob!](https://github.com/trekbaum/present/blob/master/anti/resources/blob.png "Blob UML")
 
 ####Next Steps
 A blob does too much. Let's look at the opposite problem. 

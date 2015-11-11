@@ -13,14 +13,14 @@ when it really should. It is difficult to modify. Suppose we wanted to add the
 ability to select a payment plan after we calculate the load but before we 
 calculate the payment schedule. Then it would have been better to use OO.
 
-![Function!](https://github.com/trekbaum/present/blob/master/anti/resourses/function1.png "Function UML")
+![Function!](https://github.com/trekbaum/present/blob/master/anti/resources/function1.png "Function UML")
 
 Functions are often methods in an object-oriented design. It's just a matter of 
 figuring out what functions are grouped under what objects. In this example,
 the three objects are the Customer, the Loan, and the Payment. Thus we would group
 the functions into methods to refactor as follows.
 
-![Function!](https://github.com/trekbaum/present/blob/master/anti/resourses/function2.png "Function UML")
+![Function!](https://github.com/trekbaum/present/blob/master/anti/resources/function2.png "Function UML")
 
 
 ####Next Steps

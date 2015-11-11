@@ -1,7 +1,7 @@
 ##Introduction
 
 ####What is an antipattern?
-An antipattern is a common countereffective solution to a software problem. 
+An antipattern is a common counterproductive solution to a software problem. 
 Antipatterns increase development time, introduce risk, or obscure code.
 
 It is important to learn antipatterns so that they can be avoided.
