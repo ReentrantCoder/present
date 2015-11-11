@@ -1,8 +1,8 @@
 ##Arrowhead
 
 ####What is arrowhead?
-The arrowhead antipattern is when if, for, and other statements become so nested
-that the code takes the form of an arrowhead. This can be caused by a rigid
+The arrowhead antipattern is when "if", "for", and other statements become so nested
+that the code takes the shape of an arrowhead. This can be caused by a rigid
 adherence to the "one return per function" practice. While this practice is normally
 a good thing that eases readability, it is a bad thing that does the opposite in
 this case. Exception handling also contributes to the arrowhead.
@@ -13,6 +13,10 @@ help lead to guard clauses. Using filters and processing partial results decreas
 nesting.
 
 ####Coding Example
+
+In this example, we are using a java class to add a role to a user. Notice how 
+the nested if error handling goes three layers deep. They form the pointed shape of an
+arrow head.
 
 ```
 public void AddRole(Role role)
@@ -41,6 +45,9 @@ public void AddRole(Role role)
     }
 }
 ```
+
+By inverting the check for not null to a check for null and adding guard clauses,
+we have removed two layers of nesting.
 
 ```
 public void AddRole(Role role)
