@@ -10,23 +10,24 @@ in directory "uml"
 
 due 10/04/15
 
-####Structural Design Patterns
+####[Structural Design Patterns](https://github.com/trekbaum/present/blob/master/sdp/README.md)
 Presentation 2
 
 in directory "sdp"
 
 due 10/25/15
 
-####ORMS/Hibernate 
+####[Anti-patterns](https://github.com/trekbaum/present/blob/master/anti/README.md)
 Presentation 3
-
-in directory "orm"
-
-due 11/15/15
-
-####Anti-patterns
-Presentation 4
 
 in directory "anti"
 
+due 11/15/15
+
+####[ORMS/Hibernate](https://github.com/trekbaum/present/blob/master/orm/README.md)
+Presentation 4
+
+in directory "orm"
+
 due 12/11/15
+
