@@ -10,13 +10,14 @@ upon while we discussed software life cycles.
 
 ####Wrapping Up
 
-In the presentation, we covered anti-patterns.
+In the presentation, we covered antipatterns.
 
-Thank you for reading. I hope this presentation taught or refreshed your anti-patterns.
+Thank you for reading. I hope this presentation taught or refreshed your antipatterns.
 
 ####Code and Figures
 
-I made the code for magic numbers and got the code for spaghetti code from Wikipedia.
+I made the code for magic numbers and clipboard coding. I got the code for arrowhead from Los Techies.
+I got the code for spaghetti code from Wikipedia.
 I got the UML for blob, poltergeist, and functional fixation from Sourcemaking.
 
 ####References
@@ -25,6 +26,8 @@ Sourcemaking (www.sourcemaking.com)
 Liz Boese's CSCI 5828 Lecture Slides
 
 Cunningham & Cunningham, Inc. (http://c2.com/cgi/wiki?AntiPattern)
+
+Los Techies (https://lostechies.com/chrismissal/2009/05/27/anti-patterns-and-worst-practices-the-arrowhead-anti-pattern/)
 
 Wikipedia
 
