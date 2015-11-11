@@ -10,7 +10,11 @@ upon while we discussed software life cycles.
 
 ####Wrapping Up
 
-In the presentation, we covered antipatterns.
+In the presentation, we covered a subset of antipatterns. Magic numbers are unexplained
+numerical constants. Spaghetti code consists of tangled control structure. The blob
+is when a class does too much. Poltergeist is when a class does too little. Functional
+fixation ignores object-oriented practices. Clipboard coding is inappropriate
+repetition of code. Arrowhead is deep nesting that takes the shape of an arrow.
 
 Thank you for reading. I hope this presentation taught or refreshed your antipatterns.
 
