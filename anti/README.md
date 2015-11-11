@@ -22,4 +22,4 @@ which is due on 11/15/15.
 
 8) [Arrowhead](https://github.com/trekbaum/present/blob/master/anti/slide7.md)
 
-9) [Conclusion](https://github.com/trekbaum/present/blob/master/sdp/conclusion.md)
+9) [Conclusion](https://github.com/trekbaum/present/blob/master/anti/conclusion.md)
