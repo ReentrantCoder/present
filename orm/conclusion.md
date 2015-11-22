@@ -12,6 +12,8 @@ Liz Boese's CSCI 5828 Lecture Slides
 
 http://www.gontu.org/hibernate-framework-tutorials/
 
+http://hibernate.org/
+
 Wikipedia
 
 ####Next Steps
