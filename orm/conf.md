@@ -78,3 +78,8 @@
     </session-factory>
 </hibernate-configuration>
 ```
+
+####Next Steps
+Next we can begin to build our code that will utilize Hibernate so [let's continue with the code example](https://github.com/trekbaum/present/blob/master/orm/code.md)
+
+Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/orm/README.md)
