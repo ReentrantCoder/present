@@ -7,7 +7,7 @@ to which to connect.
 Now when we run our code, we will get an command output telling us that tables were
 created and entities were successfully added to our tables. This verbose output
 is because we asked Hibernate to do so in our configuration file with the 
-<property name="show_sql">true</property> property. If we put false, it would be
+```<property name="show_sql">true</property>``` property. If we put false, it would be
 silent.
 
 ![Verbose!](https://github.com/trekbaum/present/blob/master/orm/resourses/verbose.png "Verbose")
