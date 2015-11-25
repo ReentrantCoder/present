@@ -9,8 +9,7 @@ Thank you for reading. I hope this presentation taught or refreshed your ORM bas
 The Hibernate configuration XML is from the Gontu web series.
 The screenshots are all from my own step-by-step setup and running of Hibernate.
 
-####Full Disclosure
-A subset of the Hibernate setup code was completed for Dr. Boese's CSCI 5448 quiz 4.
+I completed a subset of the Hibernate setup code for Dr. Boese's CSCI 5448 quiz 4.
 I sought to differentiate that work from the work submitted for this project by
 adding a conceptual discussion about ORMs, by adding code beyond the requirements of
 the quiz, and by presenting in Markdown.

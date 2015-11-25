@@ -29,6 +29,6 @@ for its column. But because we explicitly told Hibernate to name the year column
 ![Behm_DVD!](https://github.com/trekbaum/present/blob/master/orm/resourses/behm_dvd.png "Behm_DVD")
 
 ####Next Steps
-We're finished. [Let's conclude by reviewing what we have learned](https://github.com/trekbaum/present/blob/master/orm/conclusion.md)
+We're finished. [Let's see some extra functionality that we haven't cover so far.](https://github.com/trekbaum/present/blob/master/orm/extra.md)
 
 Or return to the [table of contents.](https://github.com/trekbaum/present/blob/master/orm/README.md)

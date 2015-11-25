@@ -16,4 +16,6 @@ which is due on 12/11/15.
 
 5) [Running Hibernate Code Example](https://github.com/trekbaum/present/blob/master/orm/run.md)
 
-5) [Conclusion](https://github.com/trekbaum/present/blob/master/orm/conclusion.md)
+6) [Hibernate Mapping Functionality](https://github.com/trekbaum/present/blob/master/orm/extra.md)
+
+7) [Conclusion](https://github.com/trekbaum/present/blob/master/orm/conclusion.md)
