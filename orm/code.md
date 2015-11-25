@@ -47,6 +47,18 @@ the table for the subclasses DVD and Book.
 
 ![Media!](https://github.com/trekbaum/present/blob/master/orm/resourses/media.png "Media")
 
+####The Driver and Session Factory
+
+Let's look at the driver program that will handle the database transactions. To
+actually connect to the database, we must open a session. We will ask the session
+factory to do that for us with the configuration that we specified in our XML file.
+
+After we begin the transaction, we can begin to save the media objects in our library
+to the database tables. We will commit that transaction to our database. Finally,
+we will close our session. Below is the code snippet for that.
+
+![Driver!](https://github.com/trekbaum/present/blob/master/orm/resourses/driver.png "Media")
+
 ####Next Steps
 Finally we can run our Hibernate code so [let's finish by running the code](https://github.com/trekbaum/present/blob/master/orm/run.md)
 
