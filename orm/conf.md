@@ -3,6 +3,8 @@
 To configure Hibernate, copy-and-paste the XML configuration file below into your
 projects source directory.
 
+![XML!](https://github.com/trekbaum/present/blob/master/orm/resourses/cfg.png "XML")
+
 Let's breakdown this configuraton file so that we can understand what some of the parts do.
 
 ###### <!-- Database connection settings -->
@@ -28,8 +30,6 @@ throw an error. Otherwise, it will run as normal.
 This part is asking us to explicitly state the all the classes in our project that
 will call on Hibernate. Any class that includes annotations or any thing should be
 included here. We will show these classes on the next page.
-
-![XML!](https://github.com/trekbaum/present/blob/master/orm/resourses/cfg.png "XML")
 
 ```
 <?xml version='1.0' encoding='utf-8'?>
