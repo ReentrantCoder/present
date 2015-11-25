@@ -10,7 +10,7 @@ persist the objects in a database. This is where ORMs come into place to help.
 
 Persistence is the ability of an entitity to outlive the applications process. In Java,
 this would me that the object can live outside the scope of the Java Virtual Machine by
-living with an relational database. This persistence could be used to restore the state at some later time.
+living within an relational database. This persistence could be used to restore the state at some later time.
 
 Relational databases are simply databases that store information about relationships
 between data. For example, an apartment entity might store a reference to tenant
