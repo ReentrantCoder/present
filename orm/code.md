@@ -4,7 +4,7 @@
 
 For my example, there are four different classes, Book, DVD, Media, and a driver class.
 Book and DVD are subclasses of Media. Book and DVD share the title attribute so that is
-stored in the Media class. Book has the author attribute but DVD does not. And vice-versa
+stored in the Media class. Book has the author attribute, but DVD does not. And vice-versa
 with the year attribute.
 
 In our driver, we want to make instances of Book and DVD, add them to a library, and 

@@ -1,6 +1,6 @@
 ##Configuring Hibernate
 
-To configure Hibernate, copy-and-paste the XML configuration file below into your
+To configure Hibernate, copy and paste the XML configuration file below into your
 projects source directory.
 
 ![XML!](https://github.com/trekbaum/present/blob/master/orm/resourses/cfg.png "XML")
@@ -10,7 +10,7 @@ Let's breakdown this configuration file so that we can understand what some of t
 ###### <!-- Database connection settings -->
 This provides the connection information. First is the driver. Second is the connection
 URL. Most MySQL databases default to port 3306. But to check your connection, you can run: ps -ef | grep mysql to check the port. 
-Third and fourth are the username and password respectively for the MySQL server.
+Third and fourth are the username and password, respectively, for the MySQL server.
 
 ######<!-- SQL dialect -->
 This tells Hibernate what type of SQL database to which you will be talking. Here we
@@ -21,7 +21,7 @@ any other dialect.
 By specifying "create" for the hbm2ddl property, we are asking Hibernate to make a table for an entity
 that we are trying to persist if that table does not already exist. There are three
 other options. For "create-drop", Hibernate will do the same thing as "create" except that
-if you were to close the session factory object Hibernate will drop the schema . For "update",
+if you were to close the session factory object Hibernate will drop the schema. For "update",
 Hibernate will store changes to your database without dropping. This should not be used.
 For "validate", Hibernate will change nothing. If there are any changes, Hibernate will
 throw an error. Otherwise, it will run as normal.

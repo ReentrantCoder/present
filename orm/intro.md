@@ -9,8 +9,8 @@ to describe entities. Sometimes, there is a need in object-oriented systems to
 persist the objects in a database. This is where ORMs come into place to help. 
 
 Persistence is the ability of an entity to outlive the applications process. In Java,
-this would me that the object can live outside the scope of the Java Virtual Machine by
-living within an relational database. This persistence could be used to restore the state at some later time.
+this would mean that the object can live outside the scope of the Java Virtual Machine by
+living within a relational database. This persistence could be used to restore the state at some later time.
 
 Relational databases are simply databases that store information about relationships
 between data. For example, an apartment entity might store a reference to tenant
@@ -18,7 +18,7 @@ entities which could then each store a reference to a room number entity. Relati
 can be one-to-one, one-to-many, or many-to-many. 
 
 Java developers also have the option of making SQL queries directly in the application
-by using Java Database Connectivity. But ORMs seek to handle simply the task by
+by using Java Database Connectivity. But ORMs seek to simplify the task by
 handling many of the requests that a developer would make through the JDBC application
 program interface.
 
