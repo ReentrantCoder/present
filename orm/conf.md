@@ -5,7 +5,7 @@ projects source directory.
 
 ![XML!](https://github.com/trekbaum/present/blob/master/orm/resourses/cfg.png "XML")
 
-Let's breakdown this configuraton file so that we can understand what some of the parts do.
+Let's breakdown this configuration file so that we can understand what some of the parts do.
 
 ###### <!-- Database connection settings -->
 This provides the connection information. First is the driver. Second is the connection

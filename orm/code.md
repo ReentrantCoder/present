@@ -23,7 +23,7 @@ This allows us to explicitly name the table that we will be persisting entities 
 
 ######@Id
 This tells us the key attribute we will be associating with that entity. Each ID is
-unique to that entity. So it allows us to quickly referenc that entity.
+unique to that entity. So it allows us to quickly reference that entity.
 
 ![Book!](https://github.com/trekbaum/present/blob/master/orm/resourses/book.png "Book")
 

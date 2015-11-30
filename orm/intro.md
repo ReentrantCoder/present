@@ -8,7 +8,7 @@ object-relational impedance mismatch problem. But they do share a common goal of
 to describe entities. Sometimes, there is a need in object-oriented systems to 
 persist the objects in a database. This is where ORMs come into place to help. 
 
-Persistence is the ability of an entitity to outlive the applications process. In Java,
+Persistence is the ability of an entity to outlive the applications process. In Java,
 this would me that the object can live outside the scope of the Java Virtual Machine by
 living within an relational database. This persistence could be used to restore the state at some later time.
 
