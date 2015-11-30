@@ -2,6 +2,11 @@
 
 ####Wrapping Up
 
+In this presentation, we guided the reader through proper installation of Hibernate,
+constructing a code example with explanation, and a detailed overview of the 
+resulting database upon running the code. We learned about entities, mappings, and
+many other Hibernate concepts during the walkthrough.
+
 Thank you for reading. I hope this presentation taught or refreshed your ORM basics.
 
 ####Code and Figures
