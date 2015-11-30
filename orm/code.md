@@ -11,7 +11,7 @@ In our driver, we want to make instances of Book and DVD, add them to a library,
 persist them in their own respective databases.
 
 Let's look at the Book, DVD, and Media classes. We'll point out and explain the 
-Hibernate annotations. You can look at the full code if you're interested. But
+Hibernate annotations. You can look at the full code which is in the resourses directory. But
 we will provide the relevant code snippets below. These annotations come from javax.persistence package. So
 we will first need to import the package.
 
